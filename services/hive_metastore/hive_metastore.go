@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/bippio/go-impala/services/fb303"
+	"github.com/Flyingmn/ml_go_impala/services/fb303"
 
 )
 

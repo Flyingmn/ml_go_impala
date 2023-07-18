@@ -14,8 +14,8 @@ import (
         "strconv"
         "strings"
         "github.com/apache/thrift/lib/go/thrift"
-	"github.com/bippio/go-impala/services/hive_metastore"
-        "github.com/bippio/go-impala/services/beeswax"
+	"github.com/Flyingmn/ml_go_impala/services/hive_metastore"
+        "github.com/Flyingmn/ml_go_impala/services/beeswax"
 )
 
 var _ = hive_metastore.GoUnusedProtection__

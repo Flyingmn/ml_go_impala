@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
+	"github.com/Flyingmn/ml_go_impala/hive"
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/bippio/go-impala/hive"
 )
 
 // Conn to impala. It is not used concurrently by multiple goroutines.

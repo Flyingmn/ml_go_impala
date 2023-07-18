@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/bippio/go-impala/services/hive_metastore"
+	"github.com/Flyingmn/ml_go_impala/services/hive_metastore"
 
 )
 
