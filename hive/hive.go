@@ -29,6 +29,11 @@ func checkStatus(resp interface{}) error {
 			return errors.New("thrift: invalid handle")
 		}
 
+		if status.StatusCode == cli_service.TStatusCode_STILL_EXECUTING_STATUS {
+			return errors.New("STILL_EXECUTING_STATUS")
+
+		}
+
 		// SUCCESS, SUCCESS_WITH_INFO, STILL_EXECUTING are ok
 		return nil
 	}
